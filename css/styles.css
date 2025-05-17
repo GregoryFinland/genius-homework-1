@@ -1,0 +1,117 @@
+:root {
+  --main-color: #011c44;
+  --individual-color: #2b7fff;
+  --text-color: #fff;
+}
+
+body {
+  color: var(--main-color);
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.hero-title {
+  color: var(--individual-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 81%;
+}
+.span-style {
+  color: var(--individual-color);
+}
+
+.image {
+  border-radius: 50%;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.background-box {
+  background-image: url('../images/fon.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: var(--main-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer-style {
+  background-color: var(--main-color);
+}
+
+.link-f {
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.link-f:hover {
+  color: var(--individual-color);
+}
+.paragraph {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.content {
+  text-align: left;
+  max-width: 600px;
+  padding: 20px 0;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.link {
+  color: var(--main-color);
+  font-size: 18px;
+}
+
+.link:hover {
+  color: var(--individual-color);
+  font-weight: 700;
+}
+
+.button {
+  border-radius: 32px;
+  padding: 16px 32px;
+  background-color: var(--individual-color);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.button:active {
+  background-color: var(--main-color);
+}
+.section-span {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.section-style {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 173%;
+}
+
+.section-style-third {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 173%;
+}
